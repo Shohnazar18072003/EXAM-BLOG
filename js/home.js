@@ -1,8 +1,17 @@
-let latestOnePost = document.querySelector(".latestOne__post")
+let latestOnePost = document.querySelector(".latestOne__post");
 
-
-function getLatestOnePost({id, title, description, author, date, category, image }) {
-   return `
+function getLatestOnePost({
+  id,
+  title,
+  description,
+  author,
+  date,
+  category,
+  image,
+}) {
+  return `
+  <div style="background-image: url(${image})" class="home__class" >
+  <div class="container">
    <h3 class="home__subtitle">
      Posted on <span>${category}</span>
    </h3>
@@ -22,15 +31,20 @@ function getLatestOnePost({id, title, description, author, date, category, image
    >
      Read More
    </a>
+   </div>
+   </div>
    `;
- }
- 
+}
 
- latestOne.map((el) => {
-   latestOnePost.innerHTML += getLatestOnePost(el);
- });
- getLatestOnePost()
-//  latestOne.map((el, i) => {
-//    let newLatestOne = getCategory(el);
-//    categorydown.append(newCategory);
+//  latestOne.map((el) => {
+//    latestOnePost.innerHTML += getLatestOnePost(el);
 //  });
+
+function getLatestOnePosts() {
+  latestOnePost.innerHTML = "";
+  posts.forEach((el) => {
+    latestOnePost.innerHTML = getLatestOnePost(el);
+  });
+}
+
+getLatestOnePosts();
