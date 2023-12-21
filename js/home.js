@@ -26,8 +26,9 @@ function getLatestOnePost({
      <p class="home__date">${date}</p>
    </div>
    <p class="home__desc">${description}</p>
-   <a href=${`/blog-post/${id}`}
-     class="home__posts__btn"
+   <a  onclick="getPostPage('${id}')" 
+   class="home__posts__btn"
+   href="../pages/blog-post.html"
    >
      Read More
    </a>
@@ -48,3 +49,7 @@ function getLatestOnePosts() {
 }
 
 getLatestOnePosts();
+
+function getBlogPage(id) {
+  localStorage.setItem(BLOG, id);
+}

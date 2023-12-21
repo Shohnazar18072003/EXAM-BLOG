@@ -11,7 +11,7 @@ function getLatestPost({
 }) {
   return `
   <div class="carousel__card card">
-          <a href=${`/blog-post/${id}`} class="card__image">
+          <a onclick="getBlogPage('${id}')" href="../pages/blog-post.html" class="card__image">
             <img
               class="blog-carousel-image"
               src=${image}
@@ -29,7 +29,7 @@ function getLatestPost({
             </div>
             <h3 class="card__title">${title}</h3>
             <p class="card__desc">${description}</p>
-            <a href=${`/blog-post/${id}`}
+            <a  onclick="getBlogPage('${id}')" href="../pages/blog-post.html"
             class="read-more-btn">
               Read More
             </a>
@@ -46,3 +46,8 @@ function getLatestPosts() {
 }
 
 getLatestPosts();
+
+
+function getBlogPage(id) {
+  localStorage.setItem(blog, id);
+}
