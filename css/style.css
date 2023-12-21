@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 main {
   margin-top: 140px;
-=======
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -45,11 +44,10 @@ body {
 
 main {
   margin-top: 80px;
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
+}
+
 main {
   margin-top: 140px;
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 }
 
 .container {
@@ -74,33 +72,20 @@ main {
   justify-content: space-between;
   height: 80px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .nav__menu {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 .nav__login__btn {
   font-family: "Sen", sans-serif;
-=======
-.nav__login__btn {
-  font-family: "Sen";
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
+}
 
 .nav__login__btn {
   font-family: "Sen", sans-serif;
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
   margin-left: 38px;
   padding: 14px 44px;
   color: #232536;
@@ -110,10 +95,6 @@ main {
   background: #fff;
   border-radius: 4px;
   transition: 0.5s;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
   text-decoration: none;
 }
 
@@ -132,12 +113,10 @@ main {
   border-bottom: 2px solid #ffd050;
 }
 
-<<<<<<< HEAD
-=======
-}
 .nav__login__btn:hover {
   opacity: 0.8;
 }
+
 .nav__link {
   color: #fff;
   font-size: 16px;
@@ -145,32 +124,22 @@ main {
   line-height: 28px;
   transition: 0.5s ease;
 }
+
 .nav__link:hover {
   opacity: 0.8;
 }
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
+
 .nav__link.active {
   color: #ffd050;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 
 .nav__item {
   list-style-type: none;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .nav__res__menu {
   padding-top: 20px;
   padding-bottom: 40px;
@@ -185,14 +154,7 @@ main {
   align-items: center;
   gap: 25px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .nav__res__menu .nav__login__btn {
   margin-left: 0;
 }
@@ -200,14 +162,7 @@ main {
 .hamburger {
   display: none;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .hamburger button {
   background-color: transparent;
   border: none;
@@ -222,10 +177,12 @@ main {
   .nav__logo {
     margin: 0 auto;
   }
+
   .nav__menu {
     display: none;
   }
 }
+
 .site-logo {
   width: 60px;
 }
@@ -235,10 +192,6 @@ main {
   border-radius: 5px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .register-form {
   width: 770px;
   margin: 0 auto;
@@ -316,45 +269,22 @@ input::placeholder {
   color: var(--Yellow, #ffd050);
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .footer {
   background-color: #232536;
   padding-top: 54px;
   padding-bottom: 54px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .footer__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .footer__contact {
   display: flex;
   gap: 10px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 
 .footer__contact a {
   text-decoration: none !important;
@@ -376,11 +306,6 @@ input::placeholder {
   line-height: 28px;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .footer__info p,
 .footer__info .footer__phone,
 .footer__info .footer__email {
@@ -389,27 +314,13 @@ input::placeholder {
   font-weight: 400;
   line-height: 28px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .footer__media {
   display: flex;
   align-items: center;
   gap: 26px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
-
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 .footer__phone {
   margin-left: 10px;
 }
@@ -421,17 +332,18 @@ input::placeholder {
     gap: 30px;
   }
 }
+
 @media (max-width: 400px) {
   .footer__contact {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .footer__phone {
     margin-left: 0;
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #about {
   padding-top: 50px;
   padding-bottom: 100px;
@@ -445,7 +357,9 @@ input::placeholder {
   gap: 50px;
   margin-bottom: 122px;
 }
-.about__mission__subtitle, .about__vision__subtitle {
+
+.about__mission__subtitle,
+.about__vision__subtitle {
   color: #232536;
   font-size: 16px;
   font-weight: 600;
@@ -454,7 +368,9 @@ input::placeholder {
   text-transform: uppercase;
   margin-bottom: 24px;
 }
-.about__mission__title, .about__vision__title {
+
+.about__mission__title,
+.about__vision__title {
   color: #232536;
   font-family: "Sen", sans-serif;
   font-size: 28px;
@@ -463,7 +379,9 @@ input::placeholder {
   line-height: 40px;
   letter-spacing: -1px;
 }
-.about__mission__desc, .about__vision__desc {
+
+.about__mission__desc,
+.about__vision__desc {
   color: #6d6e76;
   font-family: "Sen", sans-serif;
   font-size: 16px;
@@ -471,25 +389,28 @@ input::placeholder {
   line-height: 28px;
   margin-top: 16px;
 }
+
 .about__team {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   align-items: center;
   margin-bottom: 128px;
 }
+
 .about__team__info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
 }
+
 .about__team__info h2 {
   color: #232536;
   font-family: "Sen", sans-serif;
-=======
-=======
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -550,11 +471,13 @@ main {
   justify-content: space-between;
   height: 80px;
 }
+
 .nav__menu {
   display: flex;
   align-items: center;
   gap: 24px;
 }
+
 .nav__login__btn {
   font-family: "Sen";
   margin-left: 38px;
@@ -567,9 +490,11 @@ main {
   border-radius: 4px;
   transition: 0.5s;
 }
+
 .nav__login__btn:hover {
   opacity: 0.8;
 }
+
 .nav__link {
   color: #fff;
   font-size: 16px;
@@ -577,15 +502,18 @@ main {
   line-height: 28px;
   transition: 0.5s ease;
 }
+
 .nav__link:hover {
   opacity: 0.8;
 }
+
 .nav__link.active {
   color: #ffd050;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
+
 .nav__res__menu {
   padding-top: 20px;
   padding-bottom: 40px;
@@ -600,6 +528,7 @@ main {
   align-items: center;
   gap: 25px;
 }
+
 .nav__res__menu .nav__login__btn {
   margin-left: 0;
 }
@@ -607,6 +536,7 @@ main {
 .hamburger {
   display: none;
 }
+
 .hamburger button {
   background-color: transparent;
   border: none;
@@ -621,10 +551,12 @@ main {
   .nav__logo {
     margin: 0 auto;
   }
+
   .nav__menu {
     display: none;
   }
 }
+
 .site-logo {
   width: 60px;
 }
@@ -639,15 +571,18 @@ main {
   padding-top: 54px;
   padding-bottom: 54px;
 }
+
 .footer__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .footer__contact {
   display: flex;
   gap: 10px;
 }
+
 .footer__info p,
 .footer__info .footer__phone,
 .footer__info .footer__email {
@@ -656,11 +591,13 @@ main {
   font-weight: 400;
   line-height: 28px;
 }
+
 .footer__media {
   display: flex;
   align-items: center;
   gap: 26px;
 }
+
 .footer__phone {
   margin-left: 10px;
 }
@@ -672,16 +609,18 @@ main {
     gap: 30px;
   }
 }
+
 @media (max-width: 400px) {
   .footer__contact {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .footer__phone {
     margin-left: 0;
   }
 }
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
+
 .headfoot {
   display: none;
   position: fixed;
@@ -691,12 +630,14 @@ main {
   background-color: #ffd050;
   box-shadow: -10px 10px 10px #000;
 }
+
 .headfoot .headercha {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 1px;
 }
+
 .headfoot .headercha .headercha-link {
   display: flex;
   flex-direction: column;
@@ -704,9 +645,11 @@ main {
   gap: 5px;
   color: #000;
 }
+
 .headfoot .headercha .headercha-link .active {
   color: brown !important;
 }
+
 @media (max-width: 720px) {
   .headfoot {
     display: inline-block;
@@ -721,12 +664,14 @@ main {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .home__subtitle span {
   font-weight: 900;
 }
+
 .home__title {
   color: #777;
-  font-family: "Sen";
+  font-family: "Sen", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -736,19 +681,23 @@ main {
   margin-bottom: 24px;
   width: 60%;
 }
+
 .home__details {
   display: flex;
   gap: 15px;
 }
+
 .home__details p {
   color: #777;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
+
 .home__details p span {
   color: #ffd050;
 }
+
 .home__desc {
   color: #777;
   margin-top: 16px;
@@ -762,6 +711,7 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 .home__posts__btn {
   color: #232536;
   font-family: "Sen";
@@ -774,6 +724,7 @@ main {
   background-color: #ffd050;
   transition: 0.5s;
 }
+
 .home__posts__btn:hover {
   transform: scale(1.2);
   box-shadow: 2px 2px 20px rgb(255, 213, 0);
@@ -784,16 +735,17 @@ main {
   padding-bottom: 66px;
   background-color: #fff;
 }
+
 .blog__title {
   color: #000;
-  font-family: "Sen";
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
+  font-family: "Sen", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -2px;
-<<<<<<< HEAD
+
 }
+
 .about__team__info h3 {
   color: #232536;
   font-family: "Sen", sans-serif;
@@ -801,11 +753,12 @@ main {
   font-weight: 700;
   line-height: 32px;
 }
+
 .about__team__info p {
   font-family: "Sen", sans-serif;
-=======
   margin-bottom: 64px;
 }
+
 .blog .line {
   width: 100%;
   height: 1px;
@@ -817,6 +770,7 @@ main {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .category__title {
   color: #232536;
   font-family: "Sen";
@@ -829,11 +783,13 @@ main {
 }
 
 @media (max-width: 800px) {
+
   .home__title,
   .home__desc {
     width: 100%;
   }
 }
+
 .blogim-head {
   display: flex;
   justify-content: space-between;
@@ -849,6 +805,7 @@ main {
   transition: 0.5s;
   color: white;
 }
+
 .seeAll:hover {
   transform: scale(1.2);
   box-shadow: 2px 2px 20px rgb(255, 213, 0);
@@ -866,14 +823,17 @@ main {
   padding: 16px;
   border: none;
 }
+
 .card .card__subheader {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .card .card__subheader p span {
   margin-left: 5px;
 }
+
 .card .card__content {
   display: flex;
   flex-direction: column;
@@ -881,15 +841,18 @@ main {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .card .card__content p {
   color: #4c4c4c;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
+
 .card .card__content p span {
   color: #592ea9;
 }
+
 .card .card__title {
   color: #232536;
   font-family: "Sen";
@@ -903,26 +866,24 @@ main {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
+
 .card .card__desc {
-<<<<<<< HEAD
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
   color: #232536;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
+
 .about__team__image {
   height: 100%;
 }
+
 .about__team__image .shapes_img {
   position: absolute;
   left: 48%;
   top: 125%;
 }
+
 .about__team__image img.circle_img {
   margin-left: 110px;
   margin-top: -40px;
@@ -933,56 +894,51 @@ main {
     padding: 50px;
     flex-direction: column;
   }
+
   .about__team {
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
   }
+
   .about__team__image {
     height: auto;
   }
+
   .about__team__image img {
     height: auto;
   }
+
   .about__team__2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
 }
+
 @media (max-width: 550px) {
   .about__main {
     padding: 20px;
     flex-direction: column;
   }
+
   .about__team__title {
     font-size: 28px !important;
   }
+
   .about__team__subtitle {
     font-size: 20px !important;
   }
-=======
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: 40px;
-  width: 300px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
 }
+
 
 .blog-carousel-image {
   width: 400px !important;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top;
-     object-position: top;
+  object-position: top;
 }
 
 @media (max-width: 500px) {
@@ -990,9 +946,11 @@ main {
     padding: 0 !important;
   }
 }
+
 .carousel__card {
   transition: 0.5s;
 }
+
 .carousel__card:hover {
   transform: scale(1.15);
   transform: translateY(-15px);
@@ -1012,10 +970,12 @@ main {
   width: 100%;
   transition: 0.5s;
 }
+
 .category__card:hover {
   transform: scale(1.1);
   background-color: #FFD050;
 }
+
 .category__card__title {
   color: #232536;
   font-family: "Sen";
@@ -1030,6 +990,7 @@ main {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
+
 .category__card__desc {
   color: #6d6e76;
   font-size: 16px;
@@ -1053,6 +1014,7 @@ main {
   width: 50px;
   height: 50px;
 }
+
 .category__img img {
   padding-top: 15px;
   padding-left: 15px;
@@ -1075,6 +1037,7 @@ main {
   margin-top: 20px;
   width: 100%;
 }
+
 .all-posts__title {
   color: #232536;
   font-family: "Sen";
@@ -1083,6 +1046,7 @@ main {
   line-height: 64px;
   letter-spacing: -2px;
 }
+
 .all-posts .line {
   height: 1px;
   width: 100%;
@@ -1103,12 +1067,14 @@ main {
   grid-template-columns: 40% 60%;
   grid-gap: 20px;
 }
+
 .post-card img {
   width: 400px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 .post-card .post-subtitle {
   color: var(--Purple, #592ea9);
   /* Cap 1 */
@@ -1116,10 +1082,12 @@ main {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 20px; /* 125% */
+  line-height: 20px;
+  /* 125% */
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .post-card .post-title {
   padding-top: 20px;
   padding-bottom: 16px;
@@ -1129,7 +1097,8 @@ main {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 133.333% */
+  line-height: 48px;
+  /* 133.333% */
   letter-spacing: -2px;
 }
 
@@ -1140,6 +1109,7 @@ main {
     flex-wrap: wrap;
   }
 }
+
 #about {
   padding-top: 50px;
   padding-bottom: 100px;
@@ -1153,9 +1123,9 @@ main {
   gap: 50px;
   margin-bottom: 122px;
 }
-<<<<<<< HEAD
-=======
-.about__mission__subtitle, .about__vision__subtitle {
+
+.about__mission__subtitle,
+.about__vision__subtitle {
   color: #232536;
   font-size: 16px;
   font-weight: 600;
@@ -1164,7 +1134,9 @@ main {
   text-transform: uppercase;
   margin-bottom: 24px;
 }
-.about__mission__title, .about__vision__title {
+
+.about__mission__title,
+.about__vision__title {
   color: #232536;
   font-family: "Sen", sans-serif;
   font-size: 28px;
@@ -1173,7 +1145,9 @@ main {
   line-height: 40px;
   letter-spacing: -1px;
 }
-.about__mission__desc, .about__vision__desc {
+
+.about__mission__desc,
+.about__vision__desc {
   color: #6d6e76;
   font-family: "Sen", sans-serif;
   font-size: 16px;
@@ -1181,20 +1155,23 @@ main {
   line-height: 28px;
   margin-top: 16px;
 }
+
 .about__team {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   align-items: center;
   margin-bottom: 128px;
 }
+
 .about__team__info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
 }
+
 .about__team__info h2 {
   color: #232536;
   font-family: "Sen", sans-serif;
@@ -1203,6 +1180,7 @@ main {
   line-height: 48px;
   letter-spacing: -2px;
 }
+
 .about__team__info h3 {
   color: #232536;
   font-family: "Sen", sans-serif;
@@ -1210,6 +1188,7 @@ main {
   font-weight: 700;
   line-height: 32px;
 }
+
 .about__team__info p {
   font-family: "Sen", sans-serif;
   color: #232536;
@@ -1217,14 +1196,17 @@ main {
   font-weight: 400;
   line-height: 28px;
 }
+
 .about__team__image {
   height: 100%;
 }
+
 .about__team__image .shapes_img {
   position: absolute;
   left: 48%;
   top: 125%;
 }
+
 .about__team__image img.circle_img {
   margin-left: 110px;
   margin-top: -40px;
@@ -1235,35 +1217,43 @@ main {
     padding: 50px;
     flex-direction: column;
   }
+
   .about__team {
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
   }
+
   .about__team__image {
     height: auto;
   }
+
   .about__team__image img {
     height: auto;
   }
+
   .about__team__2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
 }
+
 @media (max-width: 550px) {
   .about__main {
     padding: 20px;
     flex-direction: column;
   }
+
   .about__team__title {
     font-size: 28px !important;
   }
+
   .about__team__subtitle {
     font-size: 20px !important;
   }
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -1299,7 +1289,6 @@ body {
 main {
   margin-top: 80px;
 }
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 
 .container {
   max-width: 1320px;
@@ -1307,8 +1296,4 @@ main {
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
-<<<<<<< HEAD
->>>>>>> a2136ef1fb0e30e6ff75ae41df68b9c3683989c2
-=======
->>>>>>> 30cce6a98101c4df17e9725a839a9c4e5b1a3671
 }
